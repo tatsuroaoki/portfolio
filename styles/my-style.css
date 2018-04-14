@@ -41,7 +41,7 @@ nav {
 	padding:0.1rem 0rem 0.1rem 0rem;
 }
 
-.intro-font {
+.article-font {
 	color:lightyellow;
 }
 
@@ -56,4 +56,12 @@ nav {
 
 .link-font {
 	color:aqua;
+}
+
+.image-style {
+	border-style:solid;
+	border-color: lightgray;
+	display:block;
+	margin:auto;
+	width:20%;
 }
