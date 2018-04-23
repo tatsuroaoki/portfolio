@@ -1,0 +1,16 @@
+img {
+	border-style:solid;
+	border-color: lightgray;
+	display:block;
+	margin-left:1rem;
+	padding:0;
+}
+
+#about-me{
+	border-radius: 25px;
+	background-color:white;
+}
+
+.story{
+	display:inline-flex;
+}
