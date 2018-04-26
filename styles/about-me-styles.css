@@ -1,9 +1,14 @@
 img {
-	border-style:solid;
-	border-color: lightgray;
 	display:block;
 	margin-left:1rem;
 	padding:0;
+	border-radius:10px;
+}
+
+img:hover{
+	transform:scale(1.5);
+	transform-origin: right;
+	transform:rotate(10deg);
 }
 
 #about-me{
