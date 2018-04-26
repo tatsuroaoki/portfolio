@@ -176,6 +176,10 @@ aside{
 	color:#090A17;
 }
 
+.link-font:hover{
+	transform:scale(2);
+}
+
 footer{
 	position:fixed;
 	right:0;
