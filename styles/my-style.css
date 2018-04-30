@@ -1,5 +1,5 @@
 body {
- background-color: #FAF9F7;
+	background-color: #FAF9F7;
 	font-family: "Nunito", sans-serif;
 }
 
@@ -47,11 +47,7 @@ h1{
 
 h2{
 	margin:0 0 1rem 0;
-<<<<<<< HEAD
-	padding:0r;
-=======
 	padding:0;
->>>>>>> master
 }
 
 h4{
@@ -78,11 +74,7 @@ a:link{
 }
 
 a:visited{
-<<<<<<< HEAD
-	color:none;
-=======
 	text-decoration: none;
->>>>>>> master
 }
 
 main{
