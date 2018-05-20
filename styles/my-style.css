@@ -5,7 +5,7 @@
 }
 
 body {
-	background-color: #FAF9F7;
+	background-color:#FFFDFF;
 	font-family: "Nunito", sans-serif;
 	width:98%;
 }
@@ -81,10 +81,10 @@ main{
 }
 
 .container{
-/*
+	/*
 	border-top-color: lightblue;
 	border-top-style: solid;
-*/
+	*/
 }
 
 .intro{
@@ -117,49 +117,6 @@ main{
 
 .quarter{
 	color:lightblue;
-}
-
-.projects{
-	background-color:white;
-	width:100%;
-	border-radius:25px;
-	border-style:solid;
-	border-color:white;
-}
-
-.secondary-title-font {
-	font-family:"Lato",sans-serif;
-	font-weight: 900;
-	color:black;
-	text-align: left;
-	margin-left:1rem;
-}
-
-.article-font {
-	position:relative;
-	color:white;
-	font-family:"Nunito", sans-serif;
-	font-weight:400;
-	/*	color:#080807;*/
-	margin:0.5rem;
-	padding:0.5rem;
-}
-
-.body-font {
-	color:greenyellow;
-}
-
-.list-style {
-	color:#090A17;
-	padding:0rem 0rem 0.5rem 0rem;
-}
-
-.link-font {
-	color:#090A17;
-}
-
-.link-font:hover{
-	transform:scale(2);
 }
 
 #ping-me{
@@ -231,7 +188,6 @@ main{
 	font-family:Quicksand,sans-serif;
 	font-size:2rem;
 	padding:5%;
-	background-color:#EAE9EB;
 }
 
 .blog-title-background{
@@ -245,7 +201,6 @@ main{
 	display:flex;
 	font-family:Quicksand,sans-serif;
 	padding:1%;
-	background-color: #EAE9EB;
 }
 
 .blog-snippet-title{
