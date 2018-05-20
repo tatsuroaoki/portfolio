@@ -5,35 +5,94 @@
 		<title>Home</title>
 		<link href="styles/webfonts/fontawesome-all.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="styles/my-style.css">
-		<link href="https://fonts.googleapis.com/css?family=Lato:300,900|Nunito:400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,900|Nunito:400,700|Indie Flower:400|Asap:400|Quicksand:300,500|Quattrocento+Sans" rel="stylesheet">
 	</head>
+	<style>
+		#submit-contact{
+			font-size:16px;
+		}
+	</style>
 	<body class="body">
 		<section class="header">
 			<header>
-				<h1 id="title">My Web Development Portfolio</h1>
-				<nav class="nav">
-					<a href ="" class="menu-font parent">Home</a>
-					<a href ="projects.html" class="menu-font parent">My Projects</a>
-					<a href ="about-me.html" class="menu-font  parent">About Me</a>				
+				<a href="#" id="title"><h1>Tatsuro Aoki</h1></a>
+				<nav>
+					<a href ="#" class="parent">Home</a>
+					<a href ="#" class="parent">Projects</a>
+					<a href ="#" class="parent">About Me</a>
+					<a href ="#" class="parent">Contact</a>
 				</nav>
 			</header>
 		</section>
-		<main>
+		<div class="intro-page">
+			<img src="images/self.jpg" alt="image of myself in the mirror" class="self-image">
+			<section class="name">
+				<h1>Tatsuro Aoki</h1>
+			</section>
+			<form id="ping-me">
+				<input type="text" name="first-name" id="first-name" placeholder="First Name" required>
+				<input type="text" name="last-name" id="last-name" placeholder="Last Name">
+				<input type="email" name="email" id="email" placeholder="Email Address" required>
+				<input type="submit" name="submit-contact" id="submit-contact" value="Contact Tatsuro!">
+			</form>
+		</div>
+		<main>	
 			<div class="container">
 				<section class="intro">
-				<h4 class="secondary-title-font">Introduction</h4>
-				<p class="article-font">
-					Thank you for visiting my web development portfolio! The page may look boring at first, but my goal is to keep refining for the next four months and beyond as I continue to learn additional web development techniques through University of Washington's <u><b>HTML5, CSS3 and Responsive Design for Web Development</b> </u>certificate program.</p>
+					<h2 id="certificate">Certificate in Front-End Development with HTML5, CSS and JavaScript</h2>
+					<p class="intro-snippet">I am currently enrolled in the University of Washington's accelerated certificate program in Front-End Development with HTML5, CSS, and JavaScript. I decided to pursue web development because of its balanced combination of art and science! </p>
+					<div class="skill">
+						<section class="col">
+							<h3>HTML & CSS Foundations</h3>
+							<p class="quarter">Spring 2018</p>
+							<p class="lang-desc">I will learn HTML's latest features and techniques to write concise and reusable front-end code from scratch while exploring strategies for building dynamic layouts and developing my own design. </p>
+						</section>
+						<section class="col">
+							<h3>Web Forms, Javascript & Responsive Design</h3>
+							<p class="quarter">Spring 2018</p>
+							<p class="lang-desc">I will learn the fundamentals of JavaScript and discover how to use JavaScript to create interactive web pages. Additionally, I will learn the concepts of responsive design, which includes mobile-first design, fluid layouts and media queries. </p>
+						</section>
+						<section class="col">
+							<h3>HTML Application Programming Interfaces</h3>
+							<p class="quarter">Summer 2018</p>
+							<p class="lang-desc">I will learn language extensions like LESS and SASS, as well as other frameworks such as Bootstrap. This final course will cover advanced HTML and CSS features and responsive designs will be used to develop rich, multimedia websites that work on a wide range of devices. </p>
+						</section>
+					</div>
 				</section>
 			</div>
+			<div class="container">
+				<div class="resume-title-background">
+					<h2 class="section-title">Resume</h2>
+				</div>
+				<div>
+					<h5 class="coming-soon">Coming Soon, but in the meantime, check out my <a href="https://www.linkedin.com/in/tatsuro-aoki-58511717" target="_blank">LinkedIn Profile!</a></h5>
+				</div>
+			</div>
+			<div class="container">
+				<div class="blog-title-background">
+					<h2 class="section-title">Blog</h2>
+				</div>
+				<div class="blog-posts">
+					<a href="blog/responsive-design.html" class="col">
+						<section>
+							<h3 class="blog-snippet-title">What is Responsive Web Design?</h3>
+							<h4 class="blog-snippet-date">May 17, 2018</h4>
+							<div>
+								<img src="images/responsive-design.png" class="blog-snippet-img">
+							</div>
+						</section>
+					</a>
+					<section class="col">
+						<h3 class="blog-snippet-title">What is Responsive Web Design?</h3>
+					</section>
+					<section class="col">
+						<h3 class="blog-snippet-title">What is Responsive Web Design?</h3>
+					</section>
+				</div>
+			</div>
 		</main>
-		<aside>
-			<h4 id="dad-joke-title">Dad Joke of the Day</h4>
-			<p id="dad-joke"><i class="fab fa-angellist"></i> What do you call a person with no body and no nose?"</p>
-				<a href="joke.html" class="parent" id="dad-joke-button" target="_blank">Answer <i class="far fa-hand-paper" style="color:green"></i></a>
-		</aside>
 		<footer>
-			<p class="contact-font">Contact: thisisfake@gmail.com</p>
+			<a href="https://www.linkedin.com/in/tatsuro-aoki-58511717" class="contact-font"><i class="fab fa-linkedin"></i></a>
 		</footer>
 	</body>
 </html>
