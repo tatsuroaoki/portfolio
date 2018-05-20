@@ -39,7 +39,13 @@
 					<form>
 						<label for="blog-comment" class="blog-comment-title">Comment</label>
 						<textarea name="blog-comment" class="blog-comment" placeholder="Leave a comment!" required></textarea>
-						<input type="submit" name="blog-comment-submit" class="blog-comment-submit">
+						<!--						<input type="submit" name="blog-comment-submit" class="blog-comment-submit">-->
+						<br>
+						<section class="blog-rating-container">
+							<label for="blog-rating" class="blog-rating">How useful was this blog post? (1: Not Helpful At All! | 10: Super Helpful!)</label>
+							<input type="number" min=0 max=10 name="blog-rating" class="blog-rating-button" required>
+							<input type="submit" name="blog-comment" name="blog-rating-submit" class="blog-comment-submit">
+						</section>
 					</form>
 				</div>
 			</div>
