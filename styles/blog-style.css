@@ -36,9 +36,22 @@ form{
 	resize: none;
 }
 
+.blog-rating-container{
+	margin:2% 0;
+}
+
+.blog-rating-button{
+	margin:0 1%;
+	font-size:1rem;
+}
+
+.blog-comment-submit{
+	display:block;
+	margin:1% 0;
+}
+
 .blog-comment-submit:hover{
 	cursor:pointer;
-}
 }
 
 .container{
