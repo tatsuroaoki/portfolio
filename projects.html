@@ -1,43 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8">
-		<title>My Projects</title>
+		<meta charset = "utf-8">
+		<title>Projects</title>
+		<link href="styles/webfonts/fontawesome-all.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="styles/my-style.css">
-		<link rel="stylesheet" type="text/css" href="styles/webfonts/fontawesome-all.css">
-		<link href="https://fonts.googleapis.com/css?family=Lato:300,900|Nunito:400,700" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="styles/projects-style.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,900|Nunito:400,700|Indie Flower:400|Asap:400|Quicksand:300,500|Quattrocento+Sans" rel="stylesheet">
+		<style>
+			#submit-contact{
+				font-size:16px;
+			}
+		</style>
 	</head>
-	<body>
+	<body class="body">
+		<script src="script/projects.js"></script>
 		<section class="header">
 			<header>
-				<h1 id="title">My Web Development Portfolio</h1>
-				<nav class="nav">
-					<a href ="index.html" class="menu-font parent">Home</a>
-					<a href ="#" class="menu-font parent">My Projects</a>
-					<a href ="about-me.html" class="menu-font  parent">About Me</a>					
+				<a href="index.html" id="title"><h1>Tatsuro Aoki</h1></a>
+				<nav>
+					<a href ="index.html" class="parent">Home</a>
+					<a href ="#" class="parent" title="Projects">Projects</a>
+					<a href ="#" class="parent" title="Under Construction">About Me</a>
+					<a href ="#" class="parent" title="Under Construction">Contact</a>
 				</nav>
 			</header>
 		</section>
 		<main>
-			<section class="container">
-				<section class="projects">
-					<h4 class="secondary-title-font">My Projects </h4>
-					<ol>
-						<li class="list-style"><a href ="class01/index.html" class="link-font" target="_blank">My First HTML</a></li>
-						<li class="list-style"><a href ="https://tatsuroaoki.github.io/mockup-practice/" class="link-font" target="_blank">Re-create Kitties To Go! Website</a></li>
-						<li class="list-style"><a href =" https://tatsuroaoki.github.io/assignment-08/" class="link-font" target="_blank">Archery Class Website</a></li>
-					</ol>
-				</section>
+			<section id="projects-background-img">
+				<h2 class="section-title">Projects</h2>
 			</section>
 		</main>
-		<aside>
-			<h4 id="dad-joke-title">Dad Joke of the Day</h4>
-			<p id="dad-joke"><i class="fab fa-angellist"></i> What do you call a person with no body and no nose?"</p>
-			<a href="joke.html" class="parent" id="dad-joke-button" target="_blank">Answer <i class="far fa-hand-paper" style="color:green"></i></a>
-			<a href="joke.html" class="parent" id="dad-joke-button" target="_blank">Answer <i class="far fa-hand-paper" style="color:green"></i></a>
-		</aside>
 		<footer>
-			<p class="contact-font">Contact: thisisfake@gmail.com</p>
+			<a href="https://www.linkedin.com/in/tatsuro-aoki-58511717" class="contact-font" target="_blank"><i class="fab fa-linkedin"></i></a>
 		</footer>
 	</body>
 </html>
