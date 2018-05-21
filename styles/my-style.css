@@ -94,11 +94,36 @@ main{
 .intro-snippet{
 	color:lightblue;
 	margin:0 3% 3% 3%;
+	font-size:1.5vw;
 }
 
-.skill{
+
+#certificate{
+	font-size:2vw;
+	margin:0 1% 0 1%;
+}
+
+#certificate:first-letter{
+	color:#AD9CB2;
+	font-size:300%;
+}
+
+.course-names{
 	display:flex;
 	color:white;
+	font-size:1.2vw;
+}
+
+.course-dates{
+	display:flex;
+	font-size:1.5vw;
+	margin:0.5vw 0;
+}
+
+.course-content{
+	display:flex;
+	color:white;
+	font-size:1.3vw;
 }
 
 .col{
@@ -209,6 +234,7 @@ main{
 .blog-snippet-date{
 	margin:1%;
 	color:black;
+	font-size:1.3vw;
 }
 
 .blog-snippet-img{
@@ -232,15 +258,6 @@ footer{
 	color:#4875B4;
 	font-style: normal;
 	font-size: 1.6rem;
-}
-
-#certificate{
-	margin:0 1% 0 1%;
-}
-
-#certificate:first-letter{
-	color:#AD9CB2;
-	font-size:300%;
 }
 
 h2:nth-child(2n){
