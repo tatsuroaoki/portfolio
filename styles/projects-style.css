@@ -1,0 +1,17 @@
+* {
+	margin:0 auto;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+main {
+	background-color:#82807F;
+}
+
+#projects-background-img{
+	background:url("../images/projects-title.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 0.8;
+}
